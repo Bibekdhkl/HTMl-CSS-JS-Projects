@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Serif", serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* This won't show scroll bar */
+  /* overflow: hidden; */
+  height: 100vh;
+}

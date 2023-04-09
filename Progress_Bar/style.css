@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap");
 
+:root{
+  --color-fill:rgb(3, 42, 237);
+  --color-empty:rgb(153, 159, 187);
+
+}
+
 *{
   box-sizing: border-box;
 }
@@ -14,4 +20,95 @@ body {
   /* This won't show scroll bar */
   /* overflow: hidden; */
   height: 100vh;
+}
+
+.container{
+  text-align: center;
+}
+
+.progress-container{
+  display: flex;
+  justify-content: space-between;
+  
+  /* we are making it relative so that we can use absolute below */
+  position: relative;
+  max-width: 100%;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+
+.progress-container::before{
+  content: '';
+  position: absolute;
+  background-color: var(--color-empty);
+  top:50%;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+
+.progress{
+  position: absolute;
+  background-color: var(--color-fill);
+  top:50%;
+  left: 0;
+
+  /* this will make the line visible */
+  height: 4px;
+  width: 0%;
+
+  /* to exactly place the line in between the text */
+  transform: translateY(-50%);
+
+  /* to keep the line under the text */
+  z-index: -1;
+
+  /* To animate the line when displayed */
+  transition: 0.4s ease;
+}
+
+.circle{
+  background-color: var(--color-empty);
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--color-empty);
+  transition: 0.3s ease;
+}
+
+.circle.active{
+  border-color: var(--color-fill);
+}
+
+.btn{
+  background-color: rgb(148, 148, 224);
+  color: white;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.btn:focus{
+  outline: 0;
+}
+
+.btn:disabled{
+  background-color: var(--color-empty);
+  cursor: not-allowed;
 }

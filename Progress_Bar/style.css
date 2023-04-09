@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap");
 
 :root{
-  --color-fill:rgb(3, 42, 237);
-  --color-empty:rgb(153, 159, 187);
+  --color-fill:rgb(0, 40, 241);
+  --color-empty:rgb(151, 156, 177);
 
 }
 
@@ -74,7 +74,8 @@ body {
 
 .circle{
   background-color: var(--color-empty);
-  color: black;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
   padding: 10px;
   border-radius: 50%;
   height: 50px;
@@ -91,7 +92,7 @@ body {
 }
 
 .btn{
-  background-color: rgb(148, 148, 224);
+  background-color: var(--color-fill);
   color: white;
   font-family: inherit;
   cursor: pointer;
@@ -101,11 +102,11 @@ body {
 }
 
 .btn:active{
-  transform: scale(0.98);
+  transform: scale(0.78);
 }
 
 .btn:focus{
-  outline: 0;
+  outline: 0px;
 }
 
 .btn:disabled{

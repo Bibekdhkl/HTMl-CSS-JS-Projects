@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap");
+/* 
+* {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Roboto Serif", serif;
+  margin: 0;
+  /* This won't show scroll bar */
+  overflow-x: hidden;
+  background-color: #333;
+  color: brown;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  min-height: 100vh;
+
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: darkgreen;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+
+  cursor: pointer;
+  font-size: 2em;
+  color: white;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top;
+}
+
+.container.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: white;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
+
+img {
+  max-width: 100%;
+}

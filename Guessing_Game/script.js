@@ -7,7 +7,7 @@
 // document.querySelector('.guess').value = 10
 
 const randNum = Math.trunc(Math.random() * 20) + 1;
-document.querySelector('.number').textContent = randNum;
+// document.querySelector('.number').textContent = randNum;
 
 let startingScore = 20;
 document.querySelector('.score').textContent = startingScore;

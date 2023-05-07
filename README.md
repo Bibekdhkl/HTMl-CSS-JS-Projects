@@ -8,6 +8,7 @@ Small Projects I built while sharpening my skills
 |-----|-------------------------|
 | [Expanding Cards](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Expanding_Cards/) | Expanding Cards to preview images by clicking on the image|
 | [Progress Bar](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Progress_Bar/) |Previous Next switching buttons to switch between progress bars|
+| [Guessing Game](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Guessing_Game/) |Number guessing game implemented using concepts of DOM|
 <!-- | [PROJECT_N](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Expanding_Cards/) |PROJ_DESC| -->
 
 <br>

@@ -5,19 +5,18 @@
       <title>
             Modal_Window
       </title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
       <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
       <div class="container">
             <div class="modal-container">
-                  <button class="modal-1">Show modal 1</button>
-                  <button class="modal-2">Show modal 2</button>
-                  <button class="modal-3">Show modal 3</button>
+                  <button class="show-modal">Show modal 1</button>
+                  <button class="show-modal">Show modal 2</button>
+                  <button class="show-modal">Show modal 3</button>
             </div>
-            <div class="modal-window">
-                  <i class="fas fa-xmark"></i>
+            <div class="modal-window hidden">
+                  <button class="close-model">&times</button>
                   <h1>I'm a Modal Window</h1>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi inventore rem facilis quibusdam
                         dolorum amet corporis tempora vitae, maiores quasi omnis mollitia animi deleniti ab voluptates
@@ -25,9 +24,9 @@
                         quis dolorum commodi obcaecati, dignissimos placeat? Quae voluptatum enim delectus. Pariatur,
                         quae!</p>
             </div>
-      </div>
+            <div class="overlay hidden" </div>
 
-      <script src="script.js"></script>
+                  <script src="script.js"></script>
 </body>
 
 </html>

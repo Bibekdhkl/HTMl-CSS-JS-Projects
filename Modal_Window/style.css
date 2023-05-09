@@ -27,14 +27,38 @@ body {
   position: relative;
 }
 
-.modal-window i {
+.modal-window button {
   font-size: 3em;
   position: absolute;
   right: 50px;
   top: 50px;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
 .modal-window p {
   font-size: 2em;
   line-height: 1em;
+}
+
+/* to make modal work  */
+.hidden {
+  /* display: none; */
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(88, 197, 88, 0.548);
+  height: 100%;
+  width: 100vw;
+  z-index: 5;
+  backdrop-filter: blur(3px);
+}
+
+.modal-window {
+  z-index: 10;
 }

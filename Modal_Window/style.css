@@ -27,14 +27,14 @@ body {
   position: relative;
 }
 
-.modal-window button {
+.close-modal {
   font-size: 3em;
   position: absolute;
   right: 50px;
   top: 50px;
   /* outline: none; */
-  /* border: none; */
-  background: transparent;
+  border: none;
+  background: none;
   cursor: pointer;
 }
 
@@ -60,5 +60,15 @@ body {
 }
 
 .modal-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
 }

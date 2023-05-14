@@ -11,7 +11,6 @@ _Click on the Project Name for live preview_
 | [Progress Bar](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Progress_Bar/) |Previous Next switching buttons to switch between progress bars|
 | [Guessing Game](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Guessing_Game/) |Number guessing game implemented using concepts of DOM|
 | [Rotating Navigation](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Rotating_Nav/) |Rotating Navigation Effect made using enough use of Transform CSS properties|
-
 | [Modal Window](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Modal_Window/) |Modal Window which shows and hides window on clicking|
 <!-- | [PROJECT_N](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Expanding_Cards/) |PROJ_DESC| -->
 

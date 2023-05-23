@@ -12,6 +12,7 @@ _Click on the Project Name for live preview_
 | [Guessing Game](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Guessing_Game/) |Number guessing game implemented using concepts of DOM|
 | [Rotating Navigation](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Rotating_Nav/) |Rotating Navigation Effect made using enough use of Transform CSS properties|
 | [Modal Window](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Modal_Window/) |Modal Window which shows and hides window on clicking|
+| [2 Player Game](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/2Player_Game/) |The player who reach to target 50 wins|
 <!-- | [PROJECT_N](https://bibekdhkl.github.io/HTMl-CSS-JS-Projects/Expanding_Cards/) |PROJ_DESC| -->
 
 <br>
